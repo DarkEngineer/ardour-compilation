@@ -49,3 +49,6 @@ cd ardour
 git checkout 8.6
 ./waf configure
 ./waf
+cd tools/linux_packaging
+./build --public --strip some
+./package --public --singlearch
