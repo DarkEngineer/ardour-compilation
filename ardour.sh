@@ -20,7 +20,8 @@ sudo apt install -y
 	libsoundtouch-dev \
 	libsuil-dev \
 	libcppunit-dev \
-	libwebsockets-dev
+	libwebsockets-dev \
+ 	chrpath
 sudo apt-get install -y libboost-all-dev \
 	libsdl2-dev \
 	libtag1-dev \
