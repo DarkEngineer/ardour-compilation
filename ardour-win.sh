@@ -6,6 +6,7 @@ sudo apt install g++-mingw-w64-i686-win32 \
   libglibmm-2.4-dev \
   libsndfile1-dev \
   libcurl4-gnutls-dev \
-  libarchive-dev
+  libarchive-dev \
+  liblo-dev
 
 sudo ln -s /usr/bin/x86_64-w64-mingw32-windres /usr/bin/windres
