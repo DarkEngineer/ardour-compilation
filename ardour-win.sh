@@ -11,6 +11,7 @@ sudo apt install g++-mingw-w64-i686-win32 \
   libtag1-dev \
   vamp-plugin-sdk \
   librubberband-dev \
-  libusb-1.0-0-dev
+  libusb-1.0-0-dev \
+  wine32
 
 sudo ln -s /usr/bin/x86_64-w64-mingw32-windres /usr/bin/windres
