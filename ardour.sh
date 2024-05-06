@@ -43,7 +43,7 @@ sudo apt-get install -y libboost-all-dev \
 git clone https://github.com/Ardour/ardour.git
 cd ardour
 git checkout 8.6
-./waf configure
+./waf configure  --strict --prefix=/usr --configdir=/etc --ptformat --with-backends=jack,alsa,pulseaudio,dummy --libjack=weak --optimize --cxx11
 ./waf
 cd tools/linux_packaging
 ./build --public --strip some
