@@ -40,6 +40,12 @@ sudo apt-get install -y libboost-all-dev \
 	libusb-1.0-0-dev \
 	libxml2-dev
 
+git clone https://git.aubio.org/aubio/aubio
+cd aubio
+make
+sudo ./waf install
+cd ..
+
 git clone https://github.com/Ardour/ardour.git
 cd ardour
 git checkout 8.6
